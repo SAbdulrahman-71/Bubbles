@@ -38,11 +38,44 @@
   
 }
 
+/* COntact me section  */
+.contact_me-section {
+    display: flex;
+    font-size: clamp(0.5rem, 1.5vw, 2.5rem);
+}
+
+.contact_me {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 8%;
+    
+}
+
+.contact_small-org-circle {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%; 
+    background-color: var(--orangish);
+    font-weight: bold;
+    padding: 2%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.contact_small-org-circle a p {
+    color: white;
+    text-decoration: underline;
+    margin: 0; /* Ensure there's no margin around the text */
+    
+  
+}
 
 
 
-
-
+/* View section  */
 .view-det-section {
     display: flex;
     font-size: clamp(0.5rem, 1.5vw, 2.5rem);
@@ -55,7 +88,7 @@
     
 }
 
-.small-g-circle {
+.view_small-g-circle {
     width: 5vw;
     height: 5vw;
     border-radius: 50%; 
@@ -69,14 +102,14 @@
     text-align: start;
 }
 
-.small-g-circle a p {
+.view_small-g-circle a p {
     color: white;
     text-decoration: underline;
     margin: 0; /* Ensure there's no margin around the text */
     
   
 }
-
+/*  */
 /* --------------------------------------------------------------------------------------------- */
 .centered-content {
     padding: 0 1rem;
@@ -233,7 +266,72 @@
 
 /* ----------------------------------------------------------------------------------------- */
 
+#About{
+    position: relative;
+    margin: 10%; 
+    /* box-shadow: 2px 2px 4px rgba(230, 225, 225, 0.2); */
+    /* background-color: antiquewhite; */
+    
+}
+.about-circle-gr{
+font-size: clamp(0.5rem, 3vw, 5rem);
+background:var(--greenish);
+border-radius: 50%;
+width: clamp(7rem, 35vw, 40rem);
+height: clamp(7rem, 35vw, 40rem);
+color: white;
+position: absolute;
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+align-content: center;
 
+}
+
+.about-circle-gr i{
+   
+    transform: rotate(48deg);
+    position: absolute; 
+    top: 70%; 
+    right: 20%; 
+}
+
+.about-circle-gr p{
+    position: absolute; 
+    top: 40%; 
+    right: 17%; 
+
+}
+
+.about-circle-gr strong{
+    position: absolute; 
+    top: 55%; 
+    right: 25%; 
+}
+
+
+
+.about-cirlce-org{
+    font-size: clamp(0.5rem, 3vw, 5rem);
+    text-align: center;
+    background: var(--orangish);
+    border-radius: 50%;
+    width: clamp(3.5rem, 15vw, 25rem);
+    height: clamp(3.5rem, 15vw, 25rem);
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    
+    
+}
+
+.about-cirlce-org a{
+    text-decoration: none; 
+    color: white;
+    justify-content: center;
+}
 /* ----------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------- */
