@@ -269,10 +269,8 @@
 #About{
     position: relative;
     margin: 10%; 
-    /* box-shadow: 2px 2px 4px rgba(230, 225, 225, 0.2); */
-    /* background-color: antiquewhite; */
-    
 }
+
 .about-circle-gr{
 font-size: clamp(0.5rem, 3vw, 5rem);
 background:var(--greenish);
@@ -332,8 +330,126 @@ align-content: center;
     color: white;
     justify-content: center;
 }
+
+
+
+
+
+
 /* ----------------------------------------------------------------------------------------- */
+#About2{
+    margin-top: -30%;
+}
+
+.about2-circle-org{
+font-size: clamp(0.5rem, 3vw, 5rem);
+background:var(--orangish);
+border-radius: 50%;
+width: clamp(10rem, 30vw, 40rem);
+height: clamp(10rem, 30vw, 40rem);
+color: white;
+position: absolute;
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+
+}
+
+.about2-circle-org i{
+   
+    transform: rotate(135deg);
+    position: absolute; 
+    top: 75%; 
+    right: 70%; 
+}
+
+.about2-circle-org p{
+    position: absolute; 
+    top: 40%; 
+    right: 40%; 
+
+}
+
+.about2-circle-org strong{
+    position: absolute; 
+    top: 55%; 
+    right: 47%; 
+}
+
+
+
+.about2-cirlce-white{
+    font-size: clamp(0.7rem, 3vw, 5rem);
+    text-align: center;
+    background: whitesmoke;
+    border-radius: 50%;
+    width: clamp(4.5rem, 15vw, 25rem);
+    height: clamp(4.5rem, 15vw, 25rem);
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 18%;
+    
+    
+    
+}
+
+.about2-cirlce-white a{
+    text-decoration: none; 
+    color: var(--greenish);
+    justify-content: center;
+}
+
+
 /* ----------------------------------------------------------------------------------------- */
+.M_Design1{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.M_Design2{
+    margin-bottom:  -12%;
+}
+
+.M_imgs_container{
+    margin: 20%;
+    
+}
+
+.M_imgs_container .card{
+    border-radius: 15%;
+    width: clamp(4rem, 18rem, 28rem); 
+    padding: 5%;
+    box-shadow: 5px 20px 20px rgba(20, 20, 20, 0.974);
+}
+
+.M_imgs_container img{
+    /* height: 11.9rem;  */
+    height: clamp(2.6rem, 11.9rem, 18.5rem);
+    border-radius: 13%;
+  
+
+}
+
+.M_imgs_container i{
+    transform: rotate(-90deg);
+    font-size: 200%; 
+    margin-left: 30%; 
+    color: var(--graish); 
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.974);
+
+}
+
+
+
+
+
+
+
+
 /* ----------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------- */
 
@@ -438,14 +554,6 @@ align-content: center;
     margin-left: -5%;
 }
 
-.about .inner {
-    padding-left: 80px;
-}
-
-.about .inner .about-circle .arrow-icon {
-    font-size: 2rem;
-
-}
 
 
 
@@ -494,8 +602,12 @@ align-content: center;
       }
 
       
-
-
+/* 
+      .M_imgs_container{
+        margin: 21%;
+        padding: 10%;
+        
+    } */
 
 
 .pink-box{

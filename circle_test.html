@@ -100,6 +100,7 @@
                 flex-wrap: wrap;
                 align-content: center;
                 
+        
                 
             }
 
@@ -107,12 +108,13 @@
                 text-decoration: none; 
                 color: white;
                 justify-content: center;
+                ;
             }
         </style>
 
 
-
-    <div id="About">
+<section>
+    <div id="About" class="container py-5 px-5">
         <div class="col-md-6 col-sm-12">
            
                 <div class="about-circle-gr">
@@ -131,8 +133,112 @@
         </div>
     </div>
                    
-             
-         </section>
+ </section>
+
+
+
+
+
+
+ <style>
+    #About2{
+        
+        position: relative;
+        margin: 10%; 
+        box-shadow: 2px 2px 4px rgba(230, 225, 225, 0.2);
+        background-color: antiquewhite;
+        
+    }
+    .about2-circle-org{
+    font-size: clamp(0.5rem, 3vw, 5rem);
+    background:var(--orangish);
+    border-radius: 50%;
+    width: clamp(7rem, 30vw, 40rem);
+    height: clamp(7rem, 30vw, 40rem);
+    color: white;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  
+    }
+
+    .about2-circle-org i{
+       
+        transform: rotate(135deg);
+        position: absolute; 
+        top: 75%; 
+        right: 70%; 
+    }
+
+    .about2-circle-org p{
+        position: absolute; 
+        top: 40%; 
+        right: 40%; 
+
+    }
+
+    .about2-circle-org strong{
+        position: absolute; 
+        top: 55%; 
+        right: 47%; 
+    }
+
+
+
+    .about2-cirlce-gr{
+        font-size: clamp(0.5rem, 3vw, 5rem);
+        text-align: center;
+        background: var(--greenish);
+        border-radius: 50%;
+        width: clamp(3.5rem, 15vw, 25rem);
+        height: clamp(3.5rem, 15vw, 25rem);
+        position: absolute;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        
+        margin-left: 22%;
+        
+        
+    }
+
+    .about2-cirlce-gr a{
+        text-decoration: none; 
+        color: white;
+        justify-content: center;
+    }
+</style>
+
+
+
+
+
+
+
+ <section>
+    <div id="About2" class="container py-5" style=" margin: 30%;">
+        <div class="col-md-6 col-sm-12">
+           
+                <div class="about2-circle-org">
+                    <p>View Last</p>
+                    <strong>project</strong>
+                    <br>
+                    <a href="#" ><i class="fa fa-arrow-right text-white arrow-icon"></i></a>
+                        
+                </div>
+                <div class="about2-cirlce-gr">
+                    <a href="#" > <div class="content">
+                        <p >Portfolio</p>
+                        <i class="fa-solid fa-globe"></i></a>
+                </div>
+            
+        </div>
+    </div>
+                   
+ </section>
 
 
 
