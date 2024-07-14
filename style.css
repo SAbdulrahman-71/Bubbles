@@ -297,7 +297,7 @@ align-content: center;
 }
 
 .about-circle-gr i{
-   
+   background-color: #286F6C;
     transform: rotate(48deg);
     position: absolute; 
     top: 70%; 
